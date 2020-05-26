@@ -1,0 +1,19 @@
+.demo{
+    background-color: skyblue;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.demo:active{
+    background-color: skyblue;
+    box-shadow: 10px 10px 5px #888888;
+}
+body{
+    margin: 0;
+    /* border:10px solid green; */
+    /* body和可视范围一样高 */
+    /* height: 100vh; */
+    box-sizing: border-box;
+}
